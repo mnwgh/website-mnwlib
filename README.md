@@ -43,12 +43,6 @@ This is the GitHub repo for my HTML, CSS and Javascript personal project. I crea
         - [ ] need to put keishon's photo creds somewhere else if changing the page layout
     - [ ] change all photos to PNG
     - [ ] Figure out how to center the footer on the About page
-- [ ] Make a copy of this repo
-    - [ ] One version of the repo will be the website, one will be the current code
-    - [ ] Make the website repo public, the current code repo private
-    - [ ] This repo should be the private one, new one should be the public website one (name the new one just "mnwlib")
-- [ ] Set up Vercel account and connect code
-- [ ] **!!!** Deploy!!!
 
 #### DONE
 - [x] Design book pages (page for individual books with likes/comments sections)
@@ -104,6 +98,12 @@ This is the GitHub repo for my HTML, CSS and Javascript personal project. I crea
     - [x] might need to make all elements just a TAD BIT bigger (do so after you do the above change)
 - [x] On all pages, make the navbar text just a little bigger
 - [x] Do a check of every shelf page to make sure it is up to date
+- [x] Make a copy of this repo
+    - [x] One version of the repo will be the website, one will be the current code
+    - [x] Make the website repo public, the current code repo private
+    - [x] This repo should be the private one, new one should be the public website one (name the new one just "mnwlib")
+- [x] Set up Vercel account and connect code
+- [x] **!!!** Deploy!!!
 
 
 ## CHANGES LOG
