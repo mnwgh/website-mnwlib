@@ -1,0 +1,266 @@
+@font-face {
+    font-family: "MoreSugar";
+    src: url(../fonts/MoreSugar-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'MoreSugar';
+    background-color: #e6daac;
+}
+  
+
+/* 
+-- NAVBAR --
+*/
+.navbar {
+    background: #e6daac;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+  
+  .navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: none;
+    margin: auto;
+    padding: 0 50px;
+}
+  
+#navbar__logo {
+    font-family: 'MoreSugar';
+    font-size: 45px;
+    /*font-size: 2rem;*/
+    background-color: #ffde59;
+    background-size: 100%;
+    -webkit-text-stroke: 1px black;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+  
+.navbar__item {
+    height: 80px;
+}
+  
+.navbar__links {
+    font-family: 'MoreSugar';
+    font-size: 25px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+  
+.navbar__links:hover {
+    color: #ffde59;
+    -webkit-text-stroke: 0.5px black;
+    transition: all 0.3s ease;
+}
+  
+.logo-books {
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 960px) {
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+
+    .navbar__menu {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+        opacity: 0;
+        transition: all 0.5s ease;
+        height: 50vh;
+        z-index: -1;
+        background: #e6daac;
+    }
+
+    .navbar__menu.active {
+        background: #e6daac;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 99;
+        height: 50vh;
+        font-size: 1.6rem;
+    }
+
+    #navbar__logo {
+        padding-left: 25px;
+    }
+
+    .navbar__toggle .bar {
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background: black;
+    }
+
+    .navbar__item {
+        width: 100%;
+    }
+
+    .navbar__links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    #mobile-menu {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%);
+    }
+
+    .navbar__toggle .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+/*
+-- ABOUT ME --
+*/
+
+/*HEADING*/
+h1 {
+    text-align: center;
+    color: #ffde59;
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
+}
+
+h3 {
+    color: whitesmoke;
+    -webkit-text-stroke: 0.1px black;
+}
+
+/* IMAGE AND TEXT*/
+.about__page__container {
+    margin-inline: auto;
+    display: block;
+    width: 50%;
+}
+
+.about__info__container::after {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 20px 0;
+}
+
+.about__info__column {
+    float: left;
+    width: 50%;
+    padding: 0;
+}
+
+#l__text__1, #l__text__2 {
+    padding-right: 10px;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+}
+  
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 20px 0;
+}
+
+/*
+h1 {
+    padding-bottom: 20px;
+}*/
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: medium;
+    padding: 5px 0;
+}
+
+/* 
+--- FOOTER ---
+*/
+
+.footer__container {
+    display: flex;
+    height: 80px;
+    z-index: 1;
+    max-width: fit-content;
+    margin-inline: auto;
+}
+
+.fa-twitter, .fa-instagram, .fa-twitch, .fa-tiktok, .fa-youtube, .fa-github {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-top: 20px;
+    margin-inline: 10px;
+}
+
+.fa-twitter:hover, .fa-instagram:hover, .fa-twitch:hover, .fa-tiktok:hover, .fa-youtube:hover, .fa-github:hover {
+    color: #ffde59;
+}
