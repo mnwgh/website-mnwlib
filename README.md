@@ -43,6 +43,7 @@ This is the GitHub repo for my HTML, CSS and Javascript personal project. I crea
         - [ ] need to put keishon's photo creds somewhere else if changing the page layout
     - [ ] change all photos to PNG
     - [ ] Figure out how to center the footer on the About page
+- [ ] Take pictures of non-fiction books
 
 #### DONE
 - [x] Design book pages (page for individual books with likes/comments sections)
@@ -104,7 +105,6 @@ This is the GitHub repo for my HTML, CSS and Javascript personal project. I crea
     - [x] This repo should be the private one, new one should be the public website one (name the new one just "mnwlib")
 - [x] Set up Vercel account and connect code
 - [x] **!!!** Deploy!!!
-
 
 ## CHANGES LOG
 
