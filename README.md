@@ -9,8 +9,9 @@ This is the GitHub repo for my HTML, CSS and Javascript personal project. I crea
 - **???** = Possible ToDo, could be 86'd
 
 #### DO
+- [ ] Update New Books section to include the new books added to the library
+- [ ] Home page layout change: just have every div flow in order from title->currently reading->2024 reads/new books->shelves
 - [ ] Fix the stickiness of the alphabet links on the Books page
-- [ ] Add links to the 2024 Books on the Home page
 - [ ] Learn about JSON and PHP and how to use them for the website
 - [ ] Test website on mobile once you can access it after deployment
 - [ ] Add like buttons to the book pages
@@ -105,8 +106,16 @@ This is the GitHub repo for my HTML, CSS and Javascript personal project. I crea
     - [x] This repo should be the private one, new one should be the public website one (name the new one just "mnwlib")
 - [x] Set up Vercel account and connect code
 - [x] **!!!** Deploy!!!
+- [x] Add links to the 2024 Books on the Home page
 
 ## CHANGES LOG
+
+#### January 25, 2025
+- Continuing to add new books
+
+#### January 24, 2025
+- Wow! Haven't updated the changes log in a while....LOL
+- Bought a new bookshelf and a TON of new books so for the past few days have just been adding the new books to the Books page
 
 #### July 10, 2024
 - Back after being away a while!
